@@ -4,11 +4,10 @@ containing every act/pal respectively The script uses a "formats" variable in Ma
 The hope is it's programmed in such a way that one could simply add whatever system they wanted and it would just work
 
 Currently supported systems
-
--Capcom CPS1
--Sega Msster System
--Sega Megadrive/Genesis
--Sega Game Gear
--WonderSwan Colour
--Gameboy Advance
--Super Nintendo Entertainment System
+- Capcom CPS1
+- Sega Msster System
+- Sega Megadrive/Genesis
+- Sega Game Gear
+- WonderSwan Colour
+- Gameboy Advance
+- Super Nintendo Entertainment System
