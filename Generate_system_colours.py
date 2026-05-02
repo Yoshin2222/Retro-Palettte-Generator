@@ -2,6 +2,7 @@
 if __name__ == "__main__":
     import math
     import os
+    import time
 
     def generate_colours(c_format,pallete_path):
         colour_order = []
@@ -58,10 +59,13 @@ if __name__ == "__main__":
     def main():
         pallete_path = "system_palettes"
         formats = {
+            "CPS1" : ["Capcom_CPS1","RGB444"],
             "SMS" : ["Sega_Master_System","BGR222"],
             "Genesis" : ["Sega_Genesis","BGR333"],
-            "CPS1" : ["Capcom_CPS1","RGB444"],
-            "WSC" : ["Wonderswan_Colour","RGB444"]
+            "GG" : ["Sega_Game_Gear","GRB444"],
+            "WSC" : ["Wonderswan_Colour","RGB444"],
+            "GBA" : ["Gameboy_Advance","BGR555"],
+            "SNES" : ["Super_Ninendo","BGR555"],
         }
         if not os.path.exists(pallete_path):
             os.makedirs(pallete_path)
@@ -74,4 +78,5 @@ if __name__ == "__main__":
 
 
     main()
-
+    print("FINISHED")
+    time.sleep(1)
